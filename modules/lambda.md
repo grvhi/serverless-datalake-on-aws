@@ -158,7 +158,7 @@ In this section, we will provide code to the lambda function which we just creat
 
   - Key: **DATABASE**, Value: **summitdb**
 
-  - Key: **Table**, Value: **processed_data**
+  - Key: **TABLE**, Value: **processed_data**
 
     
 
