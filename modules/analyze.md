@@ -17,11 +17,16 @@ Completed the previous modules
 
 ## Explore transformed data using Athena
 
-In this step we will analyze the transformed data using Athena 
+In this step we will analyze the transformed data using Athena.
 
 Login to the Amazon Athena Console.
 
 * GoTo: https://console.aws.amazon.com/athena/home?region=us-west-2#query
+* If you see a notification requiring you to first create an S3 bucket to store the results of your queries, follow these steps:
+         * Go to the **S3 console** and create a bucket using your preferred name, e.g. **yourname-query-results**
+         * After creating the bucket, return to the Athena console and click **'Settings'** on the top-right of the console.
+         * Enter the name of the bucket you have just created, ensuring you include a trailing slash: **s3://yourname-query-results/**
+         * Hit **Save**
 * As Athena uses the AWS Glue catalog for keeping track of data source, any S3 backed table in Glue will be visible to Athena.
 * On the left panel, select '**summitdb**' from the dropdown
 * Run the following query : 
